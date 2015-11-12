@@ -8,8 +8,6 @@ to connect to remote Raspberry Pis running [HypriotOS](http://blog.hypriot.com).
 
 ## Installation
 
-## Installation
-
 To install this plugin manually, download the binary `docker-machine-driver-hypriot`
 and  make it available by `$PATH`, for example by putting it to `/usr/local/bin/`:
 
