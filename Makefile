@@ -25,7 +25,10 @@ test: build
 		test -z "$(findstring build,$(patsubst cross,build,$@))" || docker cp $(DOCKER_CONTAINER_NAME):/go/src/github.com/docker/machine/bin bin
 
 build-local:
-	GOGC=off go build -i -o ./bin/docker-machine-driver-hypriot ./bin
+	GOGC=off go build -i -o ./bin/docker-machine-driver-hypriot_$(shell uname -s)-$(shell uname -m) ./bin
+
+install: bin/docker-machine-driver-hypriot_$(shell uname -s)-$(shell uname -m)
+	cp -f ./bin/docker-machine-driver-hypriot_$(shell uname -s)-$(shell uname -m) $(GOPATH)/bin/docker-machine-driver-hypriot
 
 test-acceptance:
 	test/integration/run-bats.sh test/integration/bats/
