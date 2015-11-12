@@ -6,6 +6,22 @@ to connect to remote Raspberry Pis running [HypriotOS](http://blog.hypriot.com).
 ## Requirements
 * [Docker Machine](https://docs.docker.com/machine/) 0.5.0+
 
+## Installation
+
+## Installation
+
+To install this plugin manually, download the binary `docker-machine-driver-hypriot`
+and  make it available by `$PATH`, for example by putting it to `/usr/local/bin/`:
+
+```bash
+$ curl -L  -o /usr/local/bin/docker-machine-driver-hypriot https://github.com/hypriot/docker-machine-hypriot/releases/download/v0.0.1/docker-machine-driver-hypriot
+$ chmod +x /usr/local/bin/docker-machine-driver-hypriot
+```
+
+The latest version of `docker-machine-driver-hypriot` binary is available on
+the ["Releases"](https://github.com/hypriot/docker-machine-hypriot/releases) page.
+
+
 ## Usage
 
 Official documentation for Docker Machine [is available here](https://docs.docker.com/machine/).
