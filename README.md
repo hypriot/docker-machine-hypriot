@@ -1,3 +1,7 @@
+# **WORK IN PROGRESS**
+
+You may find our still working docker-machine-hypriot up to version 0.4.1 binary at http://blog.hypriot.com/downloads/
+
 # Docker Machine Hypriot Driver
 
 This is a plugin for [Docker Machine](https://docs.docker.com/machine/) allowing
