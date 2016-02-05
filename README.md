@@ -5,7 +5,7 @@ That is a complete `docker-machine` binary with the hypriot driver and provision
 At the moment this plugin is rather useless as there is no provisioner plugin concept in docker-machine. So the current plan is to build a special docker-machine binary 0.5.x again with a hypriot provisioner compiled into it.
 
 **See discussion in these issues for more details:**
-  * [hypriot/docker-machine-hypriot#1 discussion](https://github.com/hypriot/docker-machine-hypriot/issues/1#issuecomment-169363905)
+  * [hypriot/docker-machine-hypriot#1](https://github.com/hypriot/docker-machine-hypriot/issues/1#issuecomment-169363905)
   * [docker/machine#2822](https://github.com/docker/machine/issues/2822)
 
 If you want to contribute or build the binary from source read the [Contributing Guide](https://github.com/hypriot/docker-machine-hypriot/blob/master/CONTRIBUTING.md)
