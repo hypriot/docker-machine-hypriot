@@ -2,7 +2,11 @@
 
 You may find our still working docker-machine-hypriot up to version 0.4.1 binary at http://blog.hypriot.com/downloads/
 That is a complete `docker-machine` binary with the hypriot driver and provisioner compiled into it. Do not use this binary as a plugin for docker-machine 0.5.x.
-At the moment this plugin is rather useless as there is no provisioner plugin concept in docker-machine. So the current plan is to build a special docker-machine binary 0.5.x again with a hypriot provisioner compiled into it. See [Issue #1 discussion](https://github.com/hypriot/docker-machine-hypriot/issues/1#issuecomment-169363905) for more details.
+At the moment this plugin is rather useless as there is no provisioner plugin concept in docker-machine. So the current plan is to build a special docker-machine binary 0.5.x again with a hypriot provisioner compiled into it.
+
+**See discussion in these issues for more details:**
+  * [hypriot/docker-machine-hypriot#1 discussion](https://github.com/hypriot/docker-machine-hypriot/issues/1#issuecomment-169363905)
+  * [docker/machine#2822](https://github.com/docker/machine/issues/2822)
 
 If you want to contribute or build the binary from source read the [Contributing Guide](https://github.com/hypriot/docker-machine-hypriot/blob/master/CONTRIBUTING.md)
 
