@@ -1,4 +1,6 @@
-# **WORK IN PROGRESS**
+# **DEPRECATED**
+
+This repo was a try to build a docker-machine plugin for HypriotOS. But it turned out that we would need a provisioner plugin instead of a driver plugin. You can use the original docker-machine binary with HypriotOS as described in http://blog.hypriot.com/post/how-to-setup-rpi-docker-swarm/.
 
 You may find our still working docker-machine-hypriot up to version 0.4.1 binary at http://blog.hypriot.com/downloads/
 That is a complete `docker-machine` binary with the hypriot driver and provisioner compiled into it. Do not use this binary as a plugin for docker-machine 0.5.x.
